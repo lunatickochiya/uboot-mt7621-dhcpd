@@ -11,7 +11,7 @@ on:
         description: 'Device Model'
         required: true
         type: string
-        default: 'ZTE_E8820S'
+        default: 'RAISECOM_MSG1500_X.00'
       flash:
         description: 'Flash Type'
         required: true
@@ -35,7 +35,7 @@ on:
         description: 'GPIO Config (format: reset_pin,sysled_pin)'
         required: true
         type: string
-        default: '18,3'
+        default: '15,13'
       cpufreq:
         description: 'CPU Frequency (400 - 1200)'
         required: true
